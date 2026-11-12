@@ -5,7 +5,7 @@
   "projects": [
     {
       "id": "esp32-fpga-module",
-      "name": "Gumstick v1: ESP32-S2 + iCE40UP5K, two DF40 connectors (current, ordered)",
+      "name": "Affogato v1: ESP32-S2 + iCE40UP5K, two DF40 connectors (current, ordered)",
       "root": "current-df40-connectors",
       "kicad": {
         "project": "module.kicad_pro",
@@ -28,7 +28,7 @@
     },
     {
       "id": "esp32-fpga-module-v2",
-      "name": "Gumstick v2: ESP32-C6 + iCE40UP5K, M.2 gold fingers (future, development)",
+      "name": "Affogato v2: ESP32-C6 + iCE40UP5K, M.2 gold fingers (future, development)",
       "root": "future-m2-goldfingers",
       "kicad": {
         "project": "module.kicad_pro",
@@ -51,7 +51,7 @@
     },
     {
       "id": "programming-carrier",
-      "name": "Gumstick v1 programming + GPIO test carrier",
+      "name": "Affogato v1 programming + GPIO test carrier",
       "root": "programming-carrier",
       "kicad": {
         "project": "carrier.kicad_pro",

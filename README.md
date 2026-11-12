@@ -1,9 +1,12 @@
-# Gumstick: ESP32 + iCE40 FPGA module
+# Affogato: ESP32 + iCE40 FPGA module
 
-A small "gumstick" daughterboard that pairs an Espressif ESP32 (Wi-Fi, USB,
+A small, stick-of-gum-sized daughterboard that pairs an Espressif ESP32 (Wi-Fi, USB,
 application CPU) with a Lattice iCE40UP5K FPGA (timing-critical I/O), plus the
 carrier used to program and test it. KiCad 10 sources, fabrication outputs,
 interface control documents and the scripts that generated them.
+
+The module shares its name with [meawoppl/affogato](https://github.com/meawoppl/affogato),
+the build and flash tool for iCE40 + ESP32 pairings that its firmware uses.
 
 | Folder | Design | Status |
 |---|---|---|
@@ -29,7 +32,7 @@ pads and component bodies; untextured).
   <img src="current-df40-connectors/renders/bottom.png" width="24%" alt="v1 module, bottom, J1/J2 DF40 connectors">
 </p>
 
-3D: [current-df40-connectors.stl](https://github.com/OrbitalCommons/gumstick/blob/main/current-df40-connectors/renders/current-df40-connectors.stl)
+3D: [current-df40-connectors.stl](https://github.com/OrbitalCommons/affogato/blob/main/current-df40-connectors/renders/current-df40-connectors.stl)
 
 ### v2: ESP32-C6 + iCE40, M.2 gold fingers (future)
 
@@ -39,7 +42,7 @@ pads and component bodies; untextured).
   <img src="future-m2-goldfingers/renders/bottom.png" width="24%" alt="v2 module, bottom">
 </p>
 
-3D: [future-m2-goldfingers.stl](https://github.com/OrbitalCommons/gumstick/blob/main/future-m2-goldfingers/renders/future-m2-goldfingers.stl)
+3D: [future-m2-goldfingers.stl](https://github.com/OrbitalCommons/affogato/blob/main/future-m2-goldfingers/renders/future-m2-goldfingers.stl)
 
 ### Programming carrier
 
@@ -51,7 +54,7 @@ pads and component bodies; untextured).
   <img src="programming-carrier/renders/bottom.png" width="45%" alt="programming carrier, bottom">
 </p>
 
-3D: [programming-carrier.stl](https://github.com/OrbitalCommons/gumstick/blob/main/programming-carrier/renders/programming-carrier.stl)
+3D: [programming-carrier.stl](https://github.com/OrbitalCommons/affogato/blob/main/programming-carrier/renders/programming-carrier.stl)
 
 Colour 3D models with tracks, soldermask and silkscreen are next to each STL
 as `renders/<folder>.glb` (open in any glTF viewer, e.g. Blender or a browser
